@@ -15,6 +15,11 @@ prerequisite
     * To restart docker 
       sudo service docker restart
     * docker info you get successfull information about docker that jenkins user 
+    and if you enble to getting any error type this command 
+    sudo chmod 777 /var/run/docker.sock
+  5) we need to install some plugins in your jenkins server like SSH agent , publish over SSH
+  6) go to pipeline syntax generatar serach for ssh agent , create username and upload the build server privatekey .
+  7)when ever deploy image for build server we need create jenkins user in your build server after restart the docker 
  
   
     
